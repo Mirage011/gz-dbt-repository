@@ -6,8 +6,8 @@ sources:
     description: This is a raw data for sales
     tables:
       - name: product
-        identifier: raw_gz_products
-        description: basdjabjdbjbjbdsb
+        identifier: raw_gz_product
+        description: This is a raw data for Production
       - name: sales
         identifier: raw_gz_sales
         description: This is a raw data for sales
