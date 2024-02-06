@@ -13,7 +13,8 @@ renamed as (
         orders_id,
         pdt_id as products_id,
         revenue,
-        quantity
+        quantity,
+        concat(orders_id , "_ " , pdt_id) as primary_id
 
     from source
 
