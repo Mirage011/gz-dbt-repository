@@ -2,7 +2,7 @@ Welcome to my  dbt project!
 
 My Lineage model 1st finance model and 2nd campaign results model and below you will find my project details :)
 
-1. models/intermediate/int_campaigns.sql
+1. models/intermediate/int_campaigns
 ![Screenshot 2024-03-21 at 17 53 46](https://github.com/Mirage011/gz-dbt-repository/assets/155905634/d37bcb3f-daa6-455c-b5eb-afee131fc469)
 
 
