@@ -1,6 +1,6 @@
-Welcome to my  dbt project!
+# Welcome to my  dbt project!
 
-My Lineage model 1st finance model and 2nd campaign results model and below you will find my project details :)
+## My Lineage model 1st finance model and 2nd campaign results model and below you will find my project details :)
 
 1. models/intermediate/int_campaigns
 ![Screenshot 2024-03-21 at 17 53 46](https://github.com/Mirage011/gz-dbt-repository/assets/155905634/d37bcb3f-daa6-455c-b5eb-afee131fc469)
@@ -12,20 +12,20 @@ My Lineage model 1st finance model and 2nd campaign results model and below you 
 
 
 
-#DBT Project Summary
+# DBT Project Summary
 
-Project Structure Materialization
+### Project Structure Materialization
 To ensure that the finance_days.sql mart model is updated daily and readily available for the finance team, it was decided to materialize it as a table. The materialization configuration was defined within the config block inside the file finance_days.sql.
 
 
-Universal Materialization Configuration
+### Universal Materialization Configuration
 Expanding the scope, it was determined that all tables within the mart folder should be materialized as tables. To implement this universal configuration, specific materialization configurations were removed from individual models and consolidated into the config file of the project, dbt_project.yml.
 
-Project Structure Database Target
+### Project Structure Database Target
 Each business team requiring access to mart models should have a dedicated dataset in the warehouse. To organize the models accordingly, a new folder was created within the mart directory corresponding to the business team, such as finance. The finance model was moved into this folder, and the dbt_project.yml file was updated to specify the target dataset for the new folder.
 
 
-Summary: Automated Data Pipeline for Financial Reporting
+### Summary: Automated Data Pipeline for Financial Reporting
 
 In this project, i developed a comprehensive automated data pipeline for financial reporting, focusing on aggregating and analyzing advertising campaign data from various sources. Below is an overview of the key steps and components of the pipeline:
 
