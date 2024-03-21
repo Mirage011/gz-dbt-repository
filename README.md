@@ -2,11 +2,11 @@ Welcome to my  dbt project!
 
 My Lineage model 1st finance mode and 2nd campaign model and below you will find my project details :)
 
-1. models/mart/Finance/finance_days
+1. models/intermediate/int_campaigns.sql
 ![Screenshot 2024-03-21 at 17 53 46](https://github.com/Mirage011/gz-dbt-repository/assets/155905634/d37bcb3f-daa6-455c-b5eb-afee131fc469)
 
 
-2. models/intermediate/int_campaigns.sql
+2. models/mart/Finance/finance_days
 ![Screenshot 2024-03-21 at 17 54 01](https://github.com/Mirage011/gz-dbt-repository/assets/155905634/c3d6f5a4-4050-4d07-92c7-f422b01c12c6)
 
 
