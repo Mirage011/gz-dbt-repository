@@ -15,11 +15,11 @@ Each business team requiring access to mart models should have a dedicated datas
 
 Summary: Automated Data Pipeline for Financial Reporting
 
-In this project, we developed a comprehensive automated data pipeline for financial reporting, focusing on aggregating and analyzing advertising campaign data from various sources. Below is an overview of the key steps and components of the pipeline:
+In this project, i developed a comprehensive automated data pipeline for financial reporting, focusing on aggregating and analyzing advertising campaign data from various sources. Below is an overview of the key steps and components of the pipeline:
 
 1. Data Source Integration:
 
-Copied tables from the provided gz_raw_data dataset into our BigQuery project, including data from platforms like AdWords, Bing, Criteo, and Facebook.
+Copied tables from the provided gz_raw_data dataset into my BigQuery project, including data from platforms like AdWords, Bing, Criteo, and Facebook.
 Added the source information to the schema.yml file in dbt cloud.
 Generated staging models automatically and cleaned them, ensuring consistency in column names and data types across different tables.
 Renamed campaign_name correctly and cast ads_cost from string to float64.
