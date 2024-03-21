@@ -57,5 +57,5 @@ By completing these steps, we have established an end-to-end automated data pipe
 
 
 
-
+![Screenshot 2024-03-21 at 17 53 46](https://github.com/Mirage011/gz-dbt-repository/assets/155905634/d37bcb3f-daa6-455c-b5eb-afee131fc469)
 
