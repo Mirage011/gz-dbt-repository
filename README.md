@@ -49,7 +49,7 @@ Added tests and descriptions to schema.yml for quality assurance.
 
 4. Creation of Finance Campaigns Daily Mart Model (finance_campaigns_day.sql):
 
-Joined the daily aggregated campaign model with finance_days model from a previous lecture.
+Joined the daily aggregated campaign model with finance_days model.
 Calculated ads_margin (operational margin - ads cost) as requested by the marketing and finance teams.
 Added tests and descriptions to schema.yml for quality assurance.
 Checked lineage to ensure data integrity.
